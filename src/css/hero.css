@@ -47,7 +47,7 @@ h1 {
 
   .mark {
     border-radius: 10px;
-    padding: 35%;
+    padding: 1%;
     border: 1px solid gray;
   }
 
@@ -82,5 +82,77 @@ h1 {
 
   .hero-cta .button:first-child {
     margin-right: 16px;
+  }
+}
+.card {
+  display: flex;
+  height: 70px;
+  width: 270px;
+  gap: 10px;
+}
+
+.card svg {
+  position: absolute;
+  display: flex;
+  width: 60%;
+  font-size: 24px;
+  font-weight: 700;
+  opacity: 1;
+  transition: opacity 0.25s;
+  z-index: 2;
+  cursor: pointer;
+}
+
+.card .social-link1,.card .social-link2{
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: whitesmoke;
+  font-size: 24px;
+  text-decoration: none;
+  transition: 0.25s;
+  border-radius: 10px;
+}
+
+.card svg {
+  transform: scale(1);
+}
+
+.card .social-link1:hover {
+  background-color: #1c2b39;
+  animation: bounce_613 0.4s linear;
+}
+
+.card .social-link2:hover {
+  background-color: #0a66c2;
+  animation: bounce_613 0.4s linear;
+}
+
+.card .social-link3:hover {
+  background-color: #0059f7;
+  animation: bounce_613 0.4s linear;
+}
+
+.card .social-link4:hover {
+  background-color: #1d4292;
+  animation: bounce_613 0.4s linear;
+}
+
+@keyframes bounce_613 {
+  40% {
+    transform: scale(1.4);
+  }
+
+  60% {
+    transform: scale(0.8);
+  }
+
+  80% {
+    transform: scale(1.2);
+  }
+
+  100% {
+    transform: scale(1);
   }
 }

@@ -55,7 +55,8 @@ li > ol {
 img {
 	height: auto;
 	max-width: 100%;
-	vertical-align: middle;
+	padding: 10px;
+	border-radius: 25px;
 }
 
 article,

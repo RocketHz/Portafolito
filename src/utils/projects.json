@@ -1,44 +1,17 @@
 [
     {
         "id": "1",
-        "title": "Galleta de la fortuna",
+        "title": "E-commerce Academlo",
         "description": "Sitio web contruido con React que muestra una galleta de la fortuna virtual, que al interactuar con ella te muestra mensajes inspiradores.",
-        "url": "link aqui",
-        "image": "/public/feature-icon-01.svg"
+        "url": "https://e-commerce-academlo-woad.vercel.app/",
+        "image": "/e-commerce-academlo.png"
+        
     },
     {
         "id": "2",
-        "title": "Galleta de la Suerte",
+        "title": "Galleta de la fortuna",
         "description": "Sitio web contruido con React que muestra una galleta de la fortuna virtual, que al interactuar con ella te muestra mensajes inspiradores.",
-        "url": "link aqui",
-        "image": "/public/feature-icon-02.svg"
-    },
-    {
-        "id": "3",
-        "title": "Galleta de la vida",
-        "description": "Sitio web contruido con React que muestra una galleta de la fortuna virtual, que al interactuar con ella te muestra mensajes inspiradores.",
-        "url": "link aqui",
-        "image": "/public/feature-icon-03.svg"
-    },
-    {
-        "id": "4",
-        "title": "Galleta de la muerte",
-        "description": "Sitio web contruido con React que muestra una galleta de la fortuna virtual, que al interactuar con ella te muestra mensajes inspiradores.",
-        "url": "link aqui",
-        "image": "/public/feature-icon-04.svg"
-    },
-    {
-        "id": "5",
-        "title": "Galleta de la tristeza",
-        "description": "Sitio web contruido con React que muestra una galleta de la fortuna virtual, que al interactuar con ella te muestra mensajes inspiradores.",
-        "url": "link aqui",
-        "image": "/public/feature-icon-05.svg"
-    },
-    {
-        "id": "6",
-        "title": "Galleta de la galleta",
-        "description": "Sitio web contruido con React que muestra una galleta de la fortuna virtual, que al interactuar con ella te muestra mensajes inspiradores.",
-        "url": "link aqui",
-        "image": "/public/feature-icon-06.svg"
+        "url": "https://galleta-de-la-fortuna.vercel.app",
+        "image": "/galletaDeLaFortuna.png"
     }
 ]
