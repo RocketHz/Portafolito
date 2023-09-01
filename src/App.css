@@ -1,0 +1,11 @@
+
+.is-boxed {
+	background: #242830;
+}
+
+.body-wrap {
+	background: #1d2026;
+	overflow: hidden;
+	display: flex;
+	flex-direction: column;
+}

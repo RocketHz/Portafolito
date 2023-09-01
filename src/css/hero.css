@@ -1,0 +1,86 @@
+h1 {
+    margin-bottom: 16px;
+}
+
+.hero-copy {
+    position: relative;
+    z-index: 1;
+  }
+
+  .mt-0 {
+    margin-top: 0;
+  }
+
+  p {
+    margin-top: 0;
+    margin-bottom: 24px;
+  }
+
+  .hero-cta {
+    margin: 0;
+  }
+
+  button{
+    display: inline-flex;
+    font-size: 14px;
+    letter-spacing: 0px;
+    font-weight: 600;
+    line-height: 16px;
+    text-decoration: none !important;
+    text-transform: uppercase;
+    background-color: #242830;
+    color: #fff !important;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    justify-content: center;
+    padding: 16px 32px;
+    height: 48px;
+    text-align: center;
+    white-space: nowrap;
+  }
+
+  .button-primary {
+    background: #097dea;
+    background: linear-gradient(65deg, #0270d7 0, #0f8afd 100%);
+  }
+
+  .mark {
+    border-radius: 10px;
+    padding: 35%;
+    border: 1px solid gray;
+  }
+
+@media (min-width: 641px) {
+  .hero {
+    text-align: left;
+    padding-top: 64px;
+    padding-bottom: 88px;
+  }
+
+  .hero-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .hero-copy {
+    padding-right: 64px;
+    min-width: 552px;
+    width: 552px;
+  }
+
+  h1 {
+    font-size: 44px;
+    line-height: 54px;
+    letter-spacing: 0px;
+  }
+
+  .hero-cta .button {
+    min-width: 170px;
+  }
+
+  .hero-cta .button:first-child {
+    margin-right: 16px;
+  }
+}
