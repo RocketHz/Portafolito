@@ -2,16 +2,26 @@
     {
         "id": "1",
         "title": "E-commerce Academlo",
-        "description": "Sitio web contruido con React que muestra una galleta de la fortuna virtual, que al interactuar con ella te muestra mensajes inspiradores.",
+        "description": "Aplicación de comercio electrónico es una plataforma segura y fácil de usar que permite a los clientes buscar y comprar una amplia gama de productos en línea. ",
         "url": "https://e-commerce-academlo-woad.vercel.app/",
+        "urlGithub": "https://github.com/RocketHz/academloShoppingCar.git",
         "image": "/e-commerce-academlo.png"
         
     },
     {
         "id": "2",
         "title": "Galleta de la fortuna",
-        "description": "Sitio web contruido con React que muestra una galleta de la fortuna virtual, que al interactuar con ella te muestra mensajes inspiradores.",
+        "description": "Aplicación desarrollada en React que utiliza un archivo JSON para generar mensajes aleatorios de la galleta de la fortuna. Esta aplicación permite a los usuarios obtener un mensaje inspirador, motivador o divertido al abrir una galleta de la fortuna virtual. Los mensajes se generan de forma aleatoria cada vez que el usuario abre una nueva galleta.",
         "url": "https://galleta-de-la-fortuna.vercel.app",
+        "urlGithub": "https://github.com/RocketHz/Galleta-De-La-Fortuna.git",
         "image": "/galletaDeLaFortuna.png"
+    },
+    {
+        "id": "3",
+        "title": "Weather App",
+        "description": "Aplicación intuitiva y fácil de usar, desarrollada en React, que te proporciona información sobre el clima actual en tu ubicación. La aplicación utiliza la API de OpenWeatherMap para obtener los datos del clima en tiempo real",
+        "url": "https://weather-app-rockethz.vercel.app/",
+        "urlGithub": "https://github.com/RocketHz/weatherApp.git",
+        "image":"/weatherApp.png"
     }
 ]

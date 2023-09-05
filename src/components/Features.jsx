@@ -10,6 +10,7 @@ const Features = () => {
     return (
         <>
             <h2 className="center-title">Proyectos</h2>
+            <p className="center-title">Apartir de aca veras mis proyectos realizados a lo largo de mi vida como programador</p>
             <section id="projects" className="features section">
                 <div className="container">
                     <div className="features-inner section-inner has-bottom-divider">
@@ -20,10 +21,10 @@ const Features = () => {
                                         <div className="feature-icon">
                                             <img src={project.image} alt="Feature 01" className=""/>
                                         </div>
-                                        <h4 className="feature-title mt-24">{project.title}</h4>
-                                        <p className="text-sm mb-0">{project.description}</p>
+                                        <h4 className="feature-title">{project.title}</h4>
+                                        <p className="text-sm">{project.description}</p>
                                         <div className="btn-group">
-                                            <button onClick={() => redirectToNewTab(project.url)}>GitHub 🚀</button>
+                                            <button onClick={() => redirectToNewTab(project.urlGithub)}>GitHub 🚀</button>
                                             <button onClick={() => redirectToNewTab(project.url)}>Visit 🚀</button>
                                         </div>
                                     </div>
