@@ -72,8 +72,11 @@ h6{
 	color: #fff;
 	font-weight: 600;
 }
+	h1{
+		letter-spacing: 3px;
+	}
 	h2{
 		font-size: 38px;
 		line-height: 48px;
-		letter-spacing: 0px;
+		letter-spacing: 3px;
 	}

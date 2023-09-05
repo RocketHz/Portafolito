@@ -1,101 +1,38 @@
-h1 {
-    margin-bottom: 16px;
+.hero {
+  padding: 90px;
 }
 
-.hero-container{
+.hero-container {
   display: flex;
-  flex-direction: row;
   justify-content: center;
   align-items: center;
+  flex-wrap: nowrap;
+  align-content: space-between;
 }
 
 .hero-copy {
-    position: relative;
-    z-index: 1;
-  }
-
-  .mt-0 {
-    margin-top: 0;
-  }
-
-  p {
-    margin-top: 0;
-    margin-bottom: 24px;
-  }
-
-  .hero-cta {
-    margin: 0;
-  }
-
-  button{
-    display: inline-flex;
-    font-size: 14px;
-    letter-spacing: 0px;
-    font-weight: 600;
-    line-height: 16px;
-    text-decoration: none !important;
-    text-transform: uppercase;
-    background-color: #242830;
-    color: #fff !important;
-    border: none;
-    border-radius: 10px;
-    cursor: pointer;
-    justify-content: center;
-    padding: 16px 32px;
-    height: 48px;
-    text-align: center;
-    white-space: nowrap;
-  }
-
-  .button-primary {
-    background: #097dea;
-    background: linear-gradient(65deg, #0270d7 0, #0f8afd 100%);
-  }
-
-  .mark {
-    border-radius: 10px;
-    padding: 1%;
-    border: 1px solid gray;
-  }
-
-@media (min-width: 641px) {
-  .hero {
-    text-align: left;
-    padding-top: 64px;
-    padding-bottom: 88px;
-  }
-
-  .hero-inner {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-
-  .hero-copy {
-    padding-right: 64px;
-    min-width: 552px;
-    width: 552px;
-  }
-
-  h1 {
-    font-size: 44px;
-    line-height: 54px;
-    letter-spacing: 0px;
-  }
-
-  .hero-cta .button {
-    min-width: 170px;
-  }
-
-  .hero-cta .button:first-child {
-    margin-right: 16px;
-  }
+  padding-right: 64px;
+  width: 669px;
+  position: relative;
+  z-index: 1;
 }
+
+.button-primary {
+  background: #097dea;
+  background: linear-gradient(65deg, #0270d7 0, #0f8afd 100%);
+}
+
+.mark {
+  border-radius: 10px;
+  padding: 1%;
+  border: 1px solid rgb(255, 255, 255);
+}
+
 .card {
   display: flex;
-  height: 70px;
-  width: 270px;
-  gap: 10px;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
 }
 
 .card svg {
@@ -110,7 +47,8 @@ h1 {
   cursor: pointer;
 }
 
-.card .social-link1,.card .social-link2{
+.card .social-link1,
+.card .social-link2 {
   position: relative;
   display: flex;
   align-items: center;
@@ -128,22 +66,12 @@ h1 {
 
 .card .social-link1:hover {
   background-color: #1c2b39;
-  animation: bounce_613 0.4s linear;
+  animation: bounce_613 0.4s cubic-bezier(0, 1.21, 0, 1.23);
 }
 
 .card .social-link2:hover {
-  background-color: #0a66c2;
-  animation: bounce_613 0.4s linear;
-}
-
-.card .social-link3:hover {
-  background-color: #0059f7;
-  animation: bounce_613 0.4s linear;
-}
-
-.card .social-link4:hover {
-  background-color: #1d4292;
-  animation: bounce_613 0.4s linear;
+  background-color: #0372e1;
+    animation: bounce_613 0.4s cubic-bezier(0, 1.21, 0, 1.23);
 }
 
 @keyframes bounce_613 {
@@ -161,5 +89,47 @@ h1 {
 
   100% {
     transform: scale(1);
+  }
+}
+
+@media (max-width: 1024px) {
+  .hero-container{
+    flex-wrap: wrap;
+  }
+  .hero-copy{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .hero-paragraph{
+    font-size: 15px;
+  }
+  .mark{
+    height: 205px;
+    width: 340px;
+  }
+  .hero {
+    padding: 15px;
+    margin-bottom: 85px;
+  }
+}
+
+@media (max-width: 425px) {
+  .hero{
+    padding: 0;
+    margin-bottom: 50px;
+  }
+
+  .hero-title{
+    font-size: 25px;
+  } 
+  .hero-paragraph{
+    font-size: 13px;
+    padding-left: 20px;
+  }
+
+  .mark{
+    width: 200px;
+    height: 150px;
   }
 }
