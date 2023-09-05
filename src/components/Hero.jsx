@@ -4,7 +4,7 @@ const Hero = () => {
     return (
         <>
             <section id="about" className="hero">
-                <div className="container">
+                <div className="hero-container">
                     <div className="hero-inner">
                         <div className="hero-copy">
                             <h2 className="hero-title mt-0">Ronni Hernandez</h2>
@@ -52,8 +52,10 @@ const Hero = () => {
                                 </div>
                             </div>
                         </div>
+                    </div>
+                    <div className="hero-inner">
                         <div className="hero-copy">
-                            <img className="mark" src="/profile.jpeg" alt="Foto de Perfil"/>
+                            <img className="mark" src="/profile.jpeg" alt="Foto de Perfil" />
                         </div>
                     </div>
                 </div>

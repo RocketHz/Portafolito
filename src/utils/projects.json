@@ -11,7 +11,7 @@
     {
         "id": "2",
         "title": "Galleta de la fortuna",
-        "description": "Aplicación desarrollada en React que utiliza un archivo JSON para generar mensajes aleatorios de la galleta de la fortuna. Esta aplicación permite a los usuarios obtener un mensaje inspirador, motivador o divertido al abrir una galleta de la fortuna virtual. Los mensajes se generan de forma aleatoria cada vez que el usuario abre una nueva galleta.",
+        "description": "Aplicación desarrollada en React que utiliza un archivo JSON para generar mensajes aleatorios de la galleta de la fortuna.",
         "url": "https://galleta-de-la-fortuna.vercel.app",
         "urlGithub": "https://github.com/RocketHz/Galleta-De-La-Fortuna.git",
         "image": "/galletaDeLaFortuna.png"

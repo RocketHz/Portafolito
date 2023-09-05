@@ -21,11 +21,13 @@ const Features = () => {
                                         <div className="feature-icon">
                                             <img src={project.image} alt="Feature 01" className=""/>
                                         </div>
-                                        <h4 className="feature-title">{project.title}</h4>
-                                        <p className="text-sm">{project.description}</p>
-                                        <div className="btn-group">
-                                            <button onClick={() => redirectToNewTab(project.urlGithub)}>GitHub 🚀</button>
-                                            <button onClick={() => redirectToNewTab(project.url)}>Visit 🚀</button>
+                                        <div>
+                                            <h4 className="feature-title">{project.title}</h4>
+                                            <p className="text-sm">{project.description}</p>
+                                            <div className="btn-group">
+                                                <button onClick={() => redirectToNewTab(project.urlGithub)}>GitHub 🚀</button>
+                                                <button onClick={() => redirectToNewTab(project.url)}>Visit 🚀</button>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>

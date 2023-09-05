@@ -14,10 +14,8 @@ function App() {
     <>
       <div>
         <Header />
-        <main>
           <Hero />
           <Features />
-        </main>
         <Footer />
       </div>
     </>

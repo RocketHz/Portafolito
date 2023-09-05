@@ -49,6 +49,7 @@ h4 {
 .feature-icon {
   display: flex;
   justify-content: center;
+  margin: 10px;
 }
 
 .mt-24 {
@@ -72,7 +73,7 @@ h4 {
   padding: 20px;
 }
 
-@media (min-width: 641px) {
+
   .section-inner {
     padding-top: 88px;
     padding-bottom: 88px;
@@ -90,6 +91,7 @@ h4 {
     margin: 10px 0;
   }
 
+
   h4,
   h5,
   h6 {
@@ -97,8 +99,6 @@ h4 {
     line-height: 34px;
     letter-spacing: 0px;
   }
-
-}
 
 .card-project {
   width: 32%;
@@ -129,8 +129,6 @@ h4 {
   box-shadow: 0px 0px 30px 1px rgba(0, 255, 117, 0.30);
  }
 
-@media (max-width: 1100px) {
   .hero-inner {
     flex-direction: column;
   }
-}
