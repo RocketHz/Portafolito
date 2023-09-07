@@ -18,7 +18,7 @@
     },
     {
         "id": "3",
-        "title": "Weather App",
+        "title": "Aplicacion del clima",
         "description": "Aplicación intuitiva y fácil de usar, desarrollada en React, que te proporciona información sobre el clima actual en tu ubicación. usando la API de OpenWeatherMap para obtener los datos del clima en tiempo real",
         "url": "https://weather-app-rockethz.vercel.app/",
         "urlGithub": "https://github.com/RocketHz/weatherApp.git",

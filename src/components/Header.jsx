@@ -6,14 +6,22 @@ const Header = () => {
             <header className="site-header">
                 <div className="header-container">
                     <div>
-                        <h1>🚀 Rocket Hz</h1>
+                        <h1>🚀 RocketHz</h1>
                     </div>
                     <ul className="header-link">
                         <li>
-                            <a href="#projects">Projects</a>
+                            <a href="#projects">
+                                <button className="social-link2">
+                                    Projects
+                                </button>
+                            </a>
                         </li>
                         <li>
-                            <a href="#about">About me</a>
+                            <a href="#about">
+                                <button className="social-link2">
+                                    About me
+                                </button>
+                            </a>
                         </li>
                     </ul>
                 </div>

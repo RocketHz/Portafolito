@@ -13,7 +13,7 @@ html {
 	font-family: 'Roboto', sans-serif;
 	font-size: 20px;
 	line-height: 1.5em;
-	color: #8a94a7;
+	color: #000000;
 }
 
 /* Remove default margins and paddings */
@@ -57,7 +57,7 @@ button {
 
 img {
 	height: auto;
-	max-width: 100%;
+	max-width: 70%;
 	padding: 10px;
 	border-radius: 25px;
 }
@@ -69,7 +69,7 @@ h4,
 h5,
 h6{
 	clear: both;
-	color: #fff;
+	color: #000000;
 	font-weight: 600;
 }
 	h1{

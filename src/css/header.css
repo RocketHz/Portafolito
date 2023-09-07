@@ -9,8 +9,8 @@
   height: 700px;
   background: #242830;
   background: linear-gradient(225deg,
-    rgb(145 0 255 / 62%) 0%,
-    rgb(0 0 0) 100%);
+    rgba(0, 183, 255, 0.62) 0%,
+    rgb(249, 249, 249) 100%);
   transform-origin: 1;
   transform: skewY(4deg);
 }
@@ -30,9 +30,6 @@ a {
 
 a:hover {
   color: white;
-  background-color: #00000059;
-  border-radius: 10vh;
-  padding: 0.5rem;
 }
 
 .header-link {

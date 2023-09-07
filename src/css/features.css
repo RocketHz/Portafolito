@@ -5,13 +5,24 @@
   align-items: center;
 }
 
+.project-container::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 900px;
+  background: #242830;
+  background: linear-gradient(160deg, rgba(0, 183, 255, 0.62) 0%, rgb(249, 249, 249) 100%);
+  transform-origin: 1;
+  transform: skewY(4deg);
+  z-index: -1;
+}
+
 .project-title {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  padding-top: 100px;
-  padding-bottom: 80px;
-  gap: 100px;
+  padding-bottom: 20px;
+  gap: 20px;
 }
 
 .center-title {
@@ -47,8 +58,8 @@
 }
 
 .card-project {
-  width: 65vh;
-  background-image: linear-gradient(163deg, #e11d1d 0%, #3700ff 100%);
+  width: 60vh;
+  background-image: linear-gradient(163deg, #00a3cb 0%, #0059ff 100%);
   border-radius: 20px;
   transition: all .3s;
  }
@@ -56,7 +67,7 @@
  .card2 {
   height: 100%;
   display: flex;
-  background-color: #1a1a1a;
+  background-color: rgb(153, 214, 240);
   border-radius: 10px;
   transition: all .2s;
   flex-wrap: wrap;
@@ -71,7 +82,7 @@
  }
  
  .card-project:hover {
-  box-shadow: 0px 0px 30px 1px rgba(0, 255, 117, 0.30);
+  box-shadow: 0px 0px 30px 1px rgba(5, 237, 113, 0.3);
  }
 
   .hero-inner {
