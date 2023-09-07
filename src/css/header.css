@@ -8,9 +8,7 @@
   width: 100%;
   height: 700px;
   background: #242830;
-  background: linear-gradient(225deg,
-    rgba(0, 183, 255, 0.62) 0%,
-    rgb(249, 249, 249) 100%);
+  background: linear-gradient(144deg, rgb(123 71 54) 0%, rgb(249, 249, 249) 100%);
   transform-origin: 1;
   transform: skewY(4deg);
 }

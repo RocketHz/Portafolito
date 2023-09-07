@@ -1,10 +1,10 @@
 
 .is-boxed {
-	background: #0099ff;
+	background: #9f4024;
 }
 
 .body-wrap {
-	background: #0099ff;
+	background: #9f4024;
 	overflow: hidden;
 	display: flex;
 	flex-direction: column;

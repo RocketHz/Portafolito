@@ -11,16 +11,9 @@ const Hero = () => {
                             Desarrollador Web FullStack con mas de 5 años de experiencia 💪
                             trabajando en una variedad de proyectos personales, desde sitios
                             web de comercio electronico hasta aplicaciones web interactivas.
-                        </p>
-                        <p className="hero-paragraph">
                             Me motiva la oportunidad de utilizar la tecnologia para resolver
                             problemas complejos y crear experiencias digitales que hagan la
                             vida mas facil y agradable para los usuarios.
-                        </p>
-                        <p className="hero-paragraph">
-                            Actualmente me encuentro con muchas ganas de trabajar con
-                            React.js y en la medida de lo posible estare subiendo los
-                            proyectos que realice a mi portafolio.
                         </p>
                         <div className="card">
                             <a href="http://github.com/RocketHz" target="_blank" rel="noopener noreferrer">
@@ -43,7 +36,12 @@ const Hero = () => {
                         </div>
                     </div>
                     <div className="hero-copy">
-                        <img className="mark" src="/profile2.png" alt="Foto de Perfil" />
+                        <img className="mark" src="/profile.jpg" alt="Foto de Perfil" />
+                        <a href="/FullStackSoftwareDeveloper.pdf" target="_blank" rel="noopener noreferrer">
+                                <button className="social-link2">
+                                    CV 
+                                </button>
+                            </a>
                     </div>
                 </div>
             </section>

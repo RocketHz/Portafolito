@@ -5,18 +5,6 @@
   align-items: center;
 }
 
-.project-container::before {
-  content: "";
-  position: absolute;
-  width: 100%;
-  height: 900px;
-  background: #242830;
-  background: linear-gradient(160deg, rgba(0, 183, 255, 0.62) 0%, rgb(249, 249, 249) 100%);
-  transform-origin: 1;
-  transform: skewY(4deg);
-  z-index: -1;
-}
-
 .project-title {
   display: flex;
   justify-content: center;
@@ -59,7 +47,7 @@
 
 .card-project {
   width: 60vh;
-  background-image: linear-gradient(163deg, #00a3cb 0%, #0059ff 100%);
+  background-image: linear-gradient(100deg, #242830 0%, rgb(237 106 15) 100%);
   border-radius: 20px;
   transition: all .3s;
  }
@@ -67,7 +55,7 @@
  .card2 {
   height: 100%;
   display: flex;
-  background-color: rgb(153, 214, 240);
+  background-color: rgb(245 151 86 / 87%);
   border-radius: 10px;
   transition: all .2s;
   flex-wrap: wrap;
