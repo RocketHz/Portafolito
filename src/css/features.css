@@ -78,7 +78,7 @@
   }
 
   /* Breakpoint for small devices 320px */
-  @media only screen and (max-width: 320px) {
+  @media (max-width: 374px) and (min-width: 320px) {
     .text-sm {
       font-size: 14px;
     }
@@ -93,28 +93,28 @@
   }
   
   /* Breakpoint for mediun devices 375px */
-  @media only screen and (max-width: 375px) {
+  @media (max-width: 424px) and (min-width: 375px) {
     .features-wrap{
       flex-wrap: wrap;
     }
   }
 
   /* Breakpoint for Large devices 425px */
-@media only screen and (max-width: 425px) {
+@media (max-width: 767px) and (min-width: 425px) {
 	.features-wrap{
     flex-wrap: wrap;
   }
 }
 
 /* Breakpoint for tablet 768px */
-@media only screen and (max-width: 768px) {
+@media (max-width: 1023px) and (min-width: 768px) {
 	.features-wrap{
     flex-wrap: wrap;
   }
 }
 
 /* Breakpoint for portatil 1024px */
-@media only screen and (max-width: 1024px) {
+@media (min-width: 1024px) {
 	.features-wrap{
     flex-wrap: wrap;
   }
