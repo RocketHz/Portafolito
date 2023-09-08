@@ -16,8 +16,8 @@ const Features = () => {
                 </div>
                 <div className="features-wrap ">
                     {projects.map((project) => (
-                        <div className="card-project ">
-                            <div className="card2" key={project.id}>
+                        <div className="card-project " key={project.id}>
+                            <div className="card2">
                                 <img src={project.image} alt="Feature 01" />
                                 <h4 className="feature-title">{project.title}</h4>
                                 <p className="text-sm">{project.description}</p>
