@@ -11,10 +11,28 @@
 }
 
 .aqui{
-	width: 160vw;
+	width: 1px;
 }
 
 /* Breakpoint for small devices */
+@media (min-width: 320px) and (max-width: 480px) {
+	.aqui{
+		width: 100%;
+		max-width: 500px;
+	}
+	h1{
+		font-size: 30px;
+	}
+}
+@media (min-width: 481px) and (max-width: 1024px) {
+	.aqui{
+		width: 100%;
+		max-width: 1023px;
+	}
+	h1{
+		font-size: 30px;
+	}
+}
 @media only screen and (max-width: 600px) {
 	.is-boxed {
 		background: #9f4024;

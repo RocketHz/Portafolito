@@ -2,18 +2,6 @@
   padding: 24px 0;
 }
 
-.site-header::before {
-  content: "";
-  position: absolute;
-  width: 100%;
-  height: 700px;
-  background: #242830;
-  background: linear-gradient(144deg, rgb(123 71 54) 0%, rgb(249, 249, 249) 100%);
-  transform-origin: 1;
-  transform: skewY(4deg);
-  z-index: -1;
-}
-
 .header-container {
   position: relative;
   width: 50%;
@@ -48,14 +36,20 @@ a:hover {
   }
 }
 
-@media only screen and (max-width: 400px) {
-  .site-header::before {
-    width: 160.5%;
-    height: 1061px;
+@media only screen and (max-width: 768px) {
+  .header-container{
+    width: 81%;
+  }
+}
+@media only screen and (max-width: 425px) {
+  .header-link{
+    flex-direction: column;
+    padding: 20px;
+    gap: 10px;
   }
 }
 
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 375px) {
   .header-link {
     flex-direction: column;
     padding: 20px;

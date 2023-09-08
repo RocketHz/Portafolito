@@ -33,16 +33,16 @@ const Hero = () => {
                                     </svg>
                                 </button>
                             </a>
+                            <a href="/FullStackSoftwareDeveloper.pdf" target="_blank" rel="noopener noreferrer">
+                                <button className="social-link2">
+                                    CV
+                                </button>
+                            </a>
                         </div>
                     </div>
 
                     <div className="hero-container">
                         <img className="mark" src="/profile.jpg" alt="Foto de Perfil" />
-                        <a href="/FullStackSoftwareDeveloper.pdf" target="_blank" rel="noopener noreferrer">
-                            <button className="social-link2">
-                                CV
-                            </button>
-                        </a>
                     </div>
                 </div>
             </section>
