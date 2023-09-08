@@ -14,53 +14,13 @@
 	width: 100vh;
 }
 
-/* Breakpoint for small devices */
-@media (min-width: 320px) and (max-width: 480px) {
+/* Breakpoint for small devices 320px */
+@media only screen and (max-width: 320px) {
 	.aqui{
 		width: 100vh;
 		max-width: 500px;
 	}
 	h1{
 		font-size: 30px;
-	}
-}
-@media (min-width: 481px) and (max-width: 1024px) {
-	.aqui{
-		width: 100vh;
-		max-width: 1023px;
-	}
-	h1{
-		font-size: 30px;
-	}
-}
-@media only screen and (max-width: 600px) {
-	.is-boxed {
-		background: #9f4024;
-	}
-
-	.body-wrap {
-		background: #9f4024;
-	}
-}
-
-/* Breakpoint for medium devices */
-@media only screen and (min-width: 601px) and (max-width: 992px) {
-	.is-boxed {
-		background: #9f4024;
-	}
-
-	.body-wrap {
-		background: #9f4024;
-	}
-}
-
-/* Breakpoint for large devices */
-@media only screen and (min-width: 993px) {
-	.is-boxed {
-		background: #9f4024;
-	}
-
-	.body-wrap {
-		background: #9f4024;
 	}
 }

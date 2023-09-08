@@ -4,17 +4,9 @@
 
 .hero-container {
   display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: nowrap;
-  align-content: space-between;
-}
-
-.hero-copy {
-  padding-right: 64px;
-  width: 669px;
-  position: relative;
-  z-index: 1;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 button {
@@ -110,36 +102,10 @@ button {
 /* Media queries for responsiveness */
 
 @media only screen and (max-width: 768px) {
-  .hero {
-    padding: 60px;
-  }
-
-  .hero-copy {
-    padding-right: 32px;
-    width: 100%;
-  }
-  .hero-container{
-    flex-direction: column;
-  }
-}
-
-@media only screen and (max-width: 480px) {
-  .hero {
-    padding: 30px;
-    display: flex;
-  }
-
-  .hero-copy {
-    padding-right: 16px;
-    width: 100%;
-  }
-
-  button {
-    padding: 12px 24px;
-    height: 40px;
-  }
   .hero-container {
+    display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
- 
 }
