@@ -36,3 +36,29 @@ a:hover {
     padding: 20px;
   }
 }
+
+/* Breakpoint for mediun devices 375px */
+@media only screen and (max-width: 375px) {
+  .header-container{
+    flex-direction: column;
+  }
+  .header-link{
+    flex-direction: column;
+    gap: 10px;
+    padding: 20px;
+  }
+}
+
+/* Breakpoint for Large devices 425px */
+@media only screen and (max-width: 425px) {
+	.header-container{
+    flex-direction: column;
+    width: 100%;
+  }
+  .header-link{
+    flex-direction: row;
+    gap: 10px;
+    padding: 20px;
+  }
+  
+}

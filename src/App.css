@@ -24,3 +24,34 @@
 		font-size: 30px;
 	}
 }
+/* Breakpoint for mediun devices 375px */
+@media only screen and (max-width: 375px) {
+	.aqui{
+		width: 100vh;
+		max-width: 500px;
+	}
+	h1{
+		font-size: 30px;
+	}
+}
+
+/* Breakpoint for Large devices 425px */
+@media only screen and (max-width: 425px) {
+	.aqui{
+		width: 100vh;
+		max-width: 500px;
+	}
+	h1{
+		font-size: 30px;
+	}
+}
+
+
+
+
+
+
+
+
+
+
