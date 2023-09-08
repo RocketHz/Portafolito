@@ -113,3 +113,15 @@
   }
 }
 
+/* Breakpoint for portatil 1024px */
+@media only screen and (max-width: 1024px) {
+	.features-wrap{
+    flex-wrap: wrap;
+  }
+
+  .card-project{
+    width: 30vh;
+  }
+}
+
+

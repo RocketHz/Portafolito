@@ -75,3 +75,15 @@ a:hover {
   }
   
 }
+
+/* Breakpoint for portatil 1024px */
+@media only screen and (max-width: 1024px) {
+	.header-container{
+    justify-content: space-evenly;
+    gap: 60px;
+  }
+
+  h1{
+    width: 450px;
+  }
+}

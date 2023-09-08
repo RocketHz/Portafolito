@@ -56,6 +56,13 @@
 	}
 }
 
+/* Breakpoint for portatil 1024px */
+@media only screen and (max-width: 1024px) {
+	.aqui{
+		width: 100vh;
+	}
+}
+
 
 
 
