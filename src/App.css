@@ -46,6 +46,16 @@
 	}
 }
 
+/* Breakpoint for tablet 768px */
+@media only screen and (max-width: 768px) {
+	.aqui{
+		width: 100vh;
+	}
+	h1{
+		font-size: 30px;
+	}
+}
+
 
 
 

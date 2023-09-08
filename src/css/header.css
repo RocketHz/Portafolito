@@ -62,3 +62,16 @@ a:hover {
   }
   
 }
+
+/* Breakpoint for tablet 768px */
+@media only screen and (max-width: 768px) {
+	.header-container{
+    justify-content: space-evenly;
+    gap: 60px;
+  }
+
+  h1{
+    width: 217px;
+  }
+  
+}

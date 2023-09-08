@@ -106,3 +106,10 @@
   }
 }
 
+/* Breakpoint for tablet 768px */
+@media only screen and (max-width: 768px) {
+	.features-wrap{
+    flex-wrap: wrap;
+  }
+}
+
