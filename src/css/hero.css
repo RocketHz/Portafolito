@@ -118,6 +118,9 @@ button {
     padding-right: 32px;
     width: 100%;
   }
+  .hero-container{
+    flex-direction: column;
+  }
 }
 
 @media only screen and (max-width: 480px) {

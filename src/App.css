@@ -11,13 +11,13 @@
 }
 
 .aqui{
-	width: 1px;
+	width: 100vh;
 }
 
 /* Breakpoint for small devices */
 @media (min-width: 320px) and (max-width: 480px) {
 	.aqui{
-		width: 100%;
+		width: 100vh;
 		max-width: 500px;
 	}
 	h1{
@@ -26,7 +26,7 @@
 }
 @media (min-width: 481px) and (max-width: 1024px) {
 	.aqui{
-		width: 100%;
+		width: 100vh;
 		max-width: 1023px;
 	}
 	h1{
