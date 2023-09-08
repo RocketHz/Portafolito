@@ -25,7 +25,7 @@ button {
   line-height: 16px;
   text-decoration: none !important;
   text-transform: uppercase;
-  background-color: rgb(123 71 54);;
+  background-color: rgb(123 71 54);
   color: #fff !important;
   border: none;
   border-radius: 10px;
@@ -41,12 +41,6 @@ button {
   background: #097dea;
   background: linear-gradient(65deg, #0270d7 0, #0f8afd 100%);
 }
-
-/* .mark {
-  border-radius: 10px;
-  padding: 1%;
-  border: 1px solid rgb(255, 255, 255);
-} */
 
 .card {
   padding: 10px;
@@ -79,7 +73,7 @@ button {
   font-size: 24px;
   text-decoration: none;
   transition: 0.25s;
-  border-radius: 10px;  
+  border-radius: 10px;
   padding-left: 50px;
   padding-right: 50px;
 }
@@ -95,7 +89,7 @@ button {
 
 .card .social-link2:hover {
   background-color: #0372e1;
-    animation: bounce_613 0.4s cubic-bezier(0, 1.21, 0, 1.23);
+  animation: bounce_613 0.4s cubic-bezier(0, 1.21, 0, 1.23);
 }
 
 @keyframes bounce_613 {
@@ -116,44 +110,35 @@ button {
   }
 }
 
-@media (max-width: 1024px) {
-  .hero-container{
-    flex-wrap: wrap;
-  }
-  .hero-copy{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  .hero-title{
-    font-size: 25px;
-  } 
-  .hero-paragraph{
-    font-size: 15px;
-  }
-  .mark{
-    height: 205px;
-    width: 340px;
-  }
+/* Media queries for responsiveness */
+
+@media only screen and (max-width: 768px) {
   .hero {
-    padding: 15px;
-    margin-bottom: 85px;
+    padding: 60px;
+  }
+
+  .hero-copy {
+    padding-right: 32px;
+    width: 100%;
   }
 }
 
-@media (max-width: 425px) {
-  .hero{
-    padding: 0;
-    margin-bottom: 50px;
+@media only screen and (max-width: 480px) {
+  .hero {
+    padding: 30px;
+    display: flex;
   }
 
-  .hero-paragraph{
-    font-size: 13px;
-    padding-left: 20px;
+  .hero-copy {
+    padding-right: 16px;
+    width: 100%;
   }
 
-  .mark{
-    width: 200px;
-    height: 150px;
+  button {
+    padding: 12px 24px;
+    height: 40px;
   }
+  .hero-container {
+    flex-direction: column;
+}
 }

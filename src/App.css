@@ -1,4 +1,4 @@
-
+/* Default styles */
 .is-boxed {
 	background: #9f4024;
 }
@@ -8,4 +8,41 @@
 	overflow: hidden;
 	display: flex;
 	flex-direction: column;
+}
+
+.aqui{
+	width: 160vw;
+}
+
+/* Breakpoint for small devices */
+@media only screen and (max-width: 600px) {
+	.is-boxed {
+		background: #9f4024;
+	}
+
+	.body-wrap {
+		background: #9f4024;
+	}
+}
+
+/* Breakpoint for medium devices */
+@media only screen and (min-width: 601px) and (max-width: 992px) {
+	.is-boxed {
+		background: #9f4024;
+	}
+
+	.body-wrap {
+		background: #9f4024;
+	}
+}
+
+/* Breakpoint for large devices */
+@media only screen and (min-width: 993px) {
+	.is-boxed {
+		background: #9f4024;
+	}
+
+	.body-wrap {
+		background: #9f4024;
+	}
 }

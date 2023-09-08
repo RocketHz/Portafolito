@@ -77,60 +77,31 @@
     flex-direction: column;
   }
 
-  @media (min-width: 1920px) {
-    .card-project{
-      width: 80vh;
-      flex-wrap: wrap;
-    }
+/* Media queries for responsiveness */
+
+@media only screen and (max-width: 768px) {
+  .project-container {
+    flex-direction: column;
   }
 
-  @media (min-width: 1200px) and (max-width: 1919px) {
-    .card-project{
-      width: 65vh;
-    }
+  .card-project {
+    width: 70%;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .text-sm {
+    font-size: 14px;
   }
 
-  @media (min-width: 992px) and (max-width: 1199px) {
-    .card-project{
-      width: 60vh;
-    }
+  .btn-group{
+    flex-direction: column;
+    gap: 10px;
   }
-
-  @media (min-width: 768px) and (max-width: 991px) {
-    .features-wrap{
-      flex-direction: column;
-    }
-    
-    .card-project{
-      width: 70vh;
-    }
-    .feature-title{
-      font-size: 15px;
-    }
-
-    button{
-      display: flex;
-      padding: 14px 10px;
-      height: auto;
-    }
-    .btn-group{
-      padding: 10px;
-      gap: 3px;
-    }
+  .project-title{
+    padding-top: 70px;
   }
-
-  @media (min-width: 481px) and  (max-width: 767px) {
-    .card-project{
-      width: 60vh;
-      flex-direction: column;
-    }
+  .features-wrap{
+    flex-wrap: wrap;
   }
-
-  @media (max-width: 480px) {
-    .features-wrap{
-      flex-direction: column;
-    }
-    .card-project{
-      width: 60vh;
-    }
-  }
+}
