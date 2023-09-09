@@ -23,5 +23,13 @@
         "url": "https://weather-app-rockethz.vercel.app/",
         "urlGithub": "https://github.com/RocketHz/weatherApp.git",
         "image":"/weatherApp.png"
+    },
+    {
+        "id": "4",
+        "title": "Rick and Morty App",
+        "description": "Aplicación intuitiva y fácil de usar, desarrollada en React, que te proporciona información sobre el clima actual en tu ubicación. usando la API de OpenWeatherMap para obtener los datos del clima en tiempo real",
+        "url": "https://rick-and-morty-app-rockethz.vercel.app/",
+        "urlGithub": "https://github.com/RocketHz/RickAndMorty-App.git",
+        "image":"/rickandmorty.png"
     }
 ]
