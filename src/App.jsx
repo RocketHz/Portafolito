@@ -10,6 +10,12 @@ import Footer from './components/Footer'
 
 function App() {
 
+  window.addEventListener("scroll", function() {
+    var navbar = document.querySelector(".body-wrap");
+    navbar.classList.toggle("scrolled", window.scrollY > 0);
+  });
+  
+
   return (
     <>
       <div className='aqui'>

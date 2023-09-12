@@ -2,7 +2,7 @@ import React from 'react'
 
 const Header = () => {
     return (
-        <div className="body-wrap">
+        <div className="body-wrap scrolled">
             <header className="site-header">
                 <div className="header-container">
                     <div>

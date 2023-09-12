@@ -13,7 +13,7 @@ html {
 	font-family: 'Roboto', sans-serif;
 	font-size: 20px;
 	line-height: 1.5em;
-	color: #000000;
+	color: #A3B3FA;
 }
 
 /* Remove default margins and paddings */
@@ -69,7 +69,7 @@ h4,
 h5,
 h6{
 	clear: both;
-	color: #000000;
+	color: #fff;
 	font-weight: 600;
 }
 	h1{
