@@ -11,14 +11,14 @@ const Header = () => {
                     <ul className="header-link">
                         <li>
                             <a href="#projects">
-                                <button className="social-link2">
+                                <button className="btn">
                                     Projects
                                 </button>
                             </a>
                         </li>
                         <li>
                             <a href="#about">
-                                <button className="social-link2">
+                                <button className="btn">
                                     About me
                                 </button>
                             </a>
