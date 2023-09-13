@@ -3,6 +3,7 @@
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
+  padding: 90px;
 }
 
 .project-title {
@@ -46,7 +47,7 @@
 }
 
 .card-project {
-  width: 60vh;
+  width: 25vw;
   background-image: linear-gradient(58deg, #000227 45%, #19277d 59%);
   border-radius: 20px;
   transition: all .3s;
@@ -77,32 +78,15 @@
     flex-direction: column;
   }
 
-  /* Breakpoint for small devices 320px */
-  @media (max-width: 374px) and (min-width: 320px) {
-    .text-sm {
-      font-size: 14px;
-    }
-  
-    .btn-group{
-      flex-direction: column;
-      gap: 10px;
-    }
-    .features-wrap{
-      flex-wrap: wrap;
-    }
-  }
-  
-  /* Breakpoint for mediun devices 375px */
-  @media (max-width: 424px) and (min-width: 375px) {
-    .features-wrap{
-      flex-wrap: wrap;
-    }
-  }
+ 
 
   /* Breakpoint for Large devices 425px */
-@media (max-width: 767px) and (min-width: 425px) {
+@media (max-width: 767px) and (min-width: 320px) {
 	.features-wrap{
     flex-wrap: wrap;
+  }
+  .card-project{
+    width: 80vw;
   }
 }
 
@@ -111,16 +95,15 @@
 	.features-wrap{
     flex-wrap: wrap;
   }
+  .card-project{
+    width: 38vw;
+  }
 }
 
 /* Breakpoint for portatil 1024px */
 @media (min-width: 1024px) {
 	.features-wrap{
     flex-wrap: wrap;
-  }
-
-  .card-project{
-    width: 30vw;
   }
 }
 

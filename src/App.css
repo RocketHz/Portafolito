@@ -68,7 +68,7 @@ background: radial-gradient(circle, rgba(3,27,98,1) 17%, rgba(8,8,8,0.9472163865
 /* Breakpoint for tablet 768px */
 @media (max-width: 1023px) and (min-width: 768px){
 	.aqui{
-		width: 100vw;
+		max-width: 50em;
 	}
 	h1{
 		font-size: 30px;
