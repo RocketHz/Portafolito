@@ -9,12 +9,8 @@ const Hero = () => {
                     <div className="hero-copy">
                         <h2 className="hero-title mt-0">Ronni Hernandez</h2>
                         <p className="hero-paragraph">
-                            Desarrollador Web FullStack con mas de 5 años de experiencia 💪
-                            trabajando en una variedad de proyectos personales, desde sitios
-                            web de comercio electronico hasta aplicaciones web interactivas.
-                            Me motiva la oportunidad de utilizar la tecnologia para resolver
-                            problemas complejos y crear experiencias digitales que hagan la
-                            vida mas facil y agradable para los usuarios.
+                        Desarrollador Web FullStack apasionado por la creación de proyectos personales que revolucionan la forma en que interactúan las personas con la tecnología. 
+                        He trabajado en una amplia variedad de proyectos, desde sitios web de comercio electrónico hasta aplicaciones web interactivas. Mi enfoque en la programación full stack me permite abordar tanto aspectos del front-end como del back-end, lo que me brinda una visión completa del proceso de desarrollo. Además, me apasiona la tecnología y la resolución de problemas complejos, lo que me motiva a seguir explorando nuevas herramientas y tecnologías para mejorar mis habilidades y ofrecer soluciones innovadoras a mis proyectos.
                         </p>
                         <div className="card">
                             <a href="http://github.com/RocketHz" target="_blank" rel="noopener noreferrer">
@@ -35,7 +31,7 @@ const Hero = () => {
                                 </button>
                             </a>
                             <a href="/FullStackSoftwareDeveloper.pdf" target="_blank" rel="noopener noreferrer">
-                                <button className="social-link2 btn">
+                                <button className="btn">
                                     CV
                                 </button>
                             </a>

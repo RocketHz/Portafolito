@@ -1,4 +1,8 @@
 /* Default styles */
+body{
+	width: 100%;
+}
+
 .is-boxed {
 	background: rgb(3,27,98);
 background: radial-gradient(circle, rgba(3,27,98,1) 17%, rgba(8,8,8,0.9472163865546218) 100%);
@@ -27,7 +31,6 @@ background: radial-gradient(circle, rgba(3,27,98,1) 17%, rgba(8,8,8,0.9472163865
 .aqui{
 	display: flex;
     width: 100vw;
-    max-width: 500px;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -45,31 +48,17 @@ background: radial-gradient(circle, rgba(3,27,98,1) 17%, rgba(8,8,8,0.9472163865
 }
 /* Breakpoint for mediun devices 375px */
 @media (max-width: 424px) and (min-width: 375px){
-	.aqui{
-		width: 100vw;
-		max-width: 500px;
-	}
-	h1{
-		font-size: 30px;
-	}
+	
 }
 
 /* Breakpoint for Large devices 425px */
 @media (max-width: 767px) and (min-width: 425px){
-	.aqui{
-		width: 100vw;
-		max-width: 500px;
-	}
-	h1{
-		font-size: 30px;
-	}
+
 }
 
 /* Breakpoint for tablet 768px */
 @media (max-width: 1023px) and (min-width: 768px){
-	.aqui{
-		max-width: 50em;
-	}
+	
 	h1{
 		font-size: 30px;
 	}

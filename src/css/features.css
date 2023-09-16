@@ -81,7 +81,7 @@
  
 
   /* Breakpoint for Large devices 425px */
-@media (max-width: 767px) and (min-width: 320px) {
+@media (max-width: 768px) and (min-width: 425px) {
 	.features-wrap{
     flex-wrap: wrap;
   }
