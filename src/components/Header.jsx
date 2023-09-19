@@ -2,13 +2,12 @@ import React from 'react'
 
 const Header = () => {
     return (
-        <div className="body-wrap scrolled">
-            <header className="site-header">
-                <div className="header-container">
+        <div className="container__wrap scrolled">
+            <header className='header__container'>
                     <div>
                         <h1>🚀 RocketHz</h1>
                     </div>
-                    <ul className="header-link">
+                    <ul className="header__link">
                         <li>
                             <a href="#projects">
                                 <button className="btn">
@@ -24,7 +23,6 @@ const Header = () => {
                             </a>
                         </li>
                     </ul>
-                </div>
             </header>
         </div>
     )

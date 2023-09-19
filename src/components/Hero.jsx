@@ -5,10 +5,10 @@ const Hero = () => {
     return (
         <>
             <section id="about" className="hero">
-                <div className="hero-container">
-                    <div className="hero-copy">
-                        <h2 className="hero-title mt-0">Ronni Hernandez</h2>
-                        <p className="hero-paragraph">
+                <div className="hero__container">
+                    <div className="hero__copy">
+                        <h2 className="hero__title">Ronni Hernandez</h2>
+                        <p className="hero__paragraph">
                         Desarrollador Web FullStack apasionado por la creación de proyectos personales que revolucionan la forma en que interactúan las personas con la tecnología. 
                         He trabajado en una amplia variedad de proyectos, desde sitios web de comercio electrónico hasta aplicaciones web interactivas. Mi enfoque en la programación full stack me permite abordar tanto aspectos del front-end como del back-end, lo que me brinda una visión completa del proceso de desarrollo. Además, me apasiona la tecnología y la resolución de problemas complejos, lo que me motiva a seguir explorando nuevas herramientas y tecnologías para mejorar mis habilidades y ofrecer soluciones innovadoras a mis proyectos.
                         </p>
@@ -30,7 +30,7 @@ const Hero = () => {
                                     </svg>
                                 </button>
                             </a>
-                            <a href="/FullStackSoftwareDeveloper.pdf" target="_blank" rel="noopener noreferrer">
+                            <a href="/FullStackSotfwareDeveloper.pdf" target="_blank" rel="noopener noreferrer">
                                 <button className="btn">
                                     CV
                                 </button>
@@ -38,7 +38,7 @@ const Hero = () => {
                         </div>
                     </div>
 
-                    <div className="hero-container">
+                    <div className="hero__container">
                         <img className="mark" src="/profile8.jpg" alt="Foto de Perfil" />
                     </div>
                 </div>
