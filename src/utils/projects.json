@@ -31,5 +31,13 @@
         "url": "https://rick-and-morty-app-rockethz.vercel.app/",
         "urlGithub": "https://github.com/RocketHz/RickAndMorty-App.git",
         "image":"/rickandmorty.png"
+    },
+    {
+        "id": "5",
+        "title": "User CRUD App",
+        "description": "CRUD para la gestion de usuarios hecho con React, react-hook-form y axios.",
+        "url": "https://user-crud-rockethz.vercel.app/",
+        "urlGithub": "https://github.com/RocketHz/User-CRUD.git",
+        "image":"/user-crud.png"
     }
 ]
