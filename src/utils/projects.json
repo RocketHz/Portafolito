@@ -1,6 +1,15 @@
 [
     {
         "id": "1",
+        "title": "Pokedex App",
+        "description": "Aplicación de la Pokedex, un proyecto mas avanzado en react, donde implemento todos los conocimientos de ReactJS a un nivel mas profesional.",
+        "url": "https://pokedex-app-rockethz.vercel.app/",
+        "urlGithub": "https://github.com/RocketHz/Pokedex-App.git",
+        "image": "/pokedex.png"
+        
+    },
+    {
+        "id": "2",
         "title": "E-commerce Academlo",
         "description": "Aplicación de comercio electrónico es una plataforma segura y fácil de usar que permite a los clientes buscar y comprar una amplia gama de productos en línea. ",
         "url": "https://e-commerce-academlo-woad.vercel.app/",
@@ -9,23 +18,7 @@
         
     },
     {
-        "id": "2",
-        "title": "Galleta de la fortuna",
-        "description": "Aplicación desarrollada en React que utiliza un archivo JSON para generar mensajes aleatorios de la galleta de la fortuna.",
-        "url": "https://galleta-de-la-fortuna.vercel.app",
-        "urlGithub": "https://github.com/RocketHz/Galleta-De-La-Fortuna.git",
-        "image": "/galletaDeLaFortuna.png"
-    },
-    {
         "id": "3",
-        "title": "Aplicacion del clima",
-        "description": "Aplicación intuitiva y fácil de usar, desarrollada en React, que te proporciona información sobre el clima actual en tu ubicación. usando la API de OpenWeatherMap para obtener los datos del clima en tiempo real",
-        "url": "https://weather-app-rockethz.vercel.app/",
-        "urlGithub": "https://github.com/RocketHz/weatherApp.git",
-        "image":"/weatherApp.png"
-    },
-    {
-        "id": "4",
         "title": "Rick and Morty App",
         "description": "Plataforma interactiva donde los fanáticos de la serie pueden explorar y obtener información detallada sobre los personajes.",
         "url": "https://rick-and-morty-app-rockethz.vercel.app/",
@@ -33,11 +26,27 @@
         "image":"/rickandmorty.png"
     },
     {
-        "id": "5",
+        "id": "4",
         "title": "User CRUD App",
         "description": "CRUD para la gestion de usuarios hecho con React, react-hook-form y axios.",
         "url": "https://user-crud-rockethz.vercel.app/",
         "urlGithub": "https://github.com/RocketHz/User-CRUD.git",
         "image":"/user-crud.png"
+    },
+    {
+        "id": "5",
+        "title": "Galleta de la fortuna",
+        "description": "Aplicación desarrollada en React que utiliza un archivo JSON para generar mensajes aleatorios de la galleta de la fortuna.",
+        "url": "https://galleta-de-la-fortuna.vercel.app",
+        "urlGithub": "https://github.com/RocketHz/Galleta-De-La-Fortuna.git",
+        "image": "/galletaDeLaFortuna.png"
+    },
+    {
+        "id": "6",
+        "title": "Aplicacion del clima",
+        "description": "Aplicación intuitiva y fácil de usar, desarrollada en React, que te proporciona información sobre el clima actual en tu ubicación. usando la API de OpenWeatherMap para obtener los datos del clima en tiempo real",
+        "url": "https://weather-app-rockethz.vercel.app/",
+        "urlGithub": "https://github.com/RocketHz/weatherApp.git",
+        "image":"/weatherApp.png"
     }
 ]
