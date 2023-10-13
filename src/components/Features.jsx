@@ -68,8 +68,8 @@ const Features = () => {
                                     ))}
                                 </ul>
                                 <div>
-                                    <button onClick={nextProject}>Siguiente</button>
                                     <button onClick={prevProject}>Anterior</button>
+                                    <button onClick={nextProject}>Siguiente</button>
                                 </div>
                             </div>
                         </div>
