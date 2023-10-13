@@ -336,3 +336,38 @@ a:hover {
 	flex-basis: 1000px;
 	max-width: 100%;
 }
+
+.carousel{
+	width: 20%;
+	display: flex;
+	gap: 1.5em;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.technologies{
+	/* display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-template-rows: repeat(2, 1fr);
+	grid-column-gap: 36px;
+	grid-row-gap: 28px;
+	justify-content: center;
+	justify-items: center; */
+	display: flex;
+	flex-wrap: wrap;
+}
+.technologies li{
+	width: 100%;
+	max-width: 100px;
+	max-height: 100px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	margin: 0 auto;
+	padding: 0;
+}
+.technologies li svg{
+	max-width: 50px;
+}
