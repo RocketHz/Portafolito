@@ -21,6 +21,13 @@ const Features = () => {
         setCurrentProject((currentProject - 1 + projects.length) % projects.length);
     };
 
+    const animations = {
+        React: reactAnimate,
+        JavaScript: javascriptAnimate,
+        HTML: htmlAnimate,
+        CSS: cssAnimate,
+    };
+
     return (
         <>
             <section id="projects" className="project-container">
@@ -34,9 +41,9 @@ const Features = () => {
                 <div className="features-wrap ">
                     {projects.map((project, index) => (
                         <div
-                            className="card-project "
+                            className="card-project"
                             key={project.id}
-                            style={{ display: index === currentProject ? "block" : "none" }}
+                            style={{ display: index === currentProject ? "grid" : "none" }}
                         >
                             <div className="card2">
                                 <img src={project.image} alt="Feature 01" />
@@ -51,25 +58,22 @@ const Features = () => {
                                     </button>
                                 </div>
                             </div>
+                            <div className="carousel">
+                                <h2 className="center-title">Tecnologias</h2>
+                                <ul className="technologies">
+                                    {Object.entries(project.tech).map(([tech]) => (
+                                        <li key={tech}>
+                                            <Lottie animationData={animations[tech]} /> {tech}
+                                        </li>
+                                    ))}
+                                </ul>
+                                <div>
+                                    <button onClick={nextProject}>Siguiente</button>
+                                    <button onClick={prevProject}>Anterior</button>
+                                </div>
+                            </div>
                         </div>
                     ))}
-                    <div className="carousel">
-                        <h2 className="center-title">Tecnologias</h2>
-                        <ul className="technologies">
-                            <li>
-                                <Lottie animationData={reactAnimate} /> ReactJS
-                            </li>
-                            <li>
-                                <Lottie animationData={javascriptAnimate} /> JavaScript
-                            </li>
-                            <li>
-                                <Lottie animationData={htmlAnimate} /> HTML
-                            </li>
-                            <li><Lottie animationData={cssAnimate} /> CSS </li>
-                        </ul>
-                        <button onClick={nextProject}>Siguiente</button>
-                        <button onClick={prevProject}>Anterior</button>
-                    </div>
                 </div>
             </section>
         </>

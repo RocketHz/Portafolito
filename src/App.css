@@ -250,13 +250,18 @@ a:hover {
 	background-image: linear-gradient(58deg, #000227 45%, #19277d 59%);
 	border-radius: 20px;
 	transition: all .3s;
-	display: flex;
+	display: grid;
+grid-template-columns: repeat(2, 1fr);
+grid-template-rows: 1fr;
+grid-column-gap: 42px;
+grid-row-gap: 0px;
+	/* display: flex;
     gap: 3.5em;
     justify-content: space-evenly;
     flex-wrap: wrap;
 	max-width: 100%;
     flex-basis: 480px;
-    flex-grow: 1;
+    flex-grow: 1; */
 }
 
 .card2 {
@@ -338,22 +343,20 @@ a:hover {
 }
 
 .carousel{
-	width: 20%;
+	width: 100%;
 	display: flex;
 	gap: 1.5em;
-	flex-direction: column;
-	justify-content: center;
 	align-items: center;
+	flex-direction: column;
+	justify-content: space-evenly;
+}
+.carousel div{
+	display: flex;
+	flex-wrap: wrap;
+	gap: 1rem;
 }
 
 .technologies{
-	/* display: grid;
-	grid-template-columns: repeat(3, 1fr);
-	grid-template-rows: repeat(2, 1fr);
-	grid-column-gap: 36px;
-	grid-row-gap: 28px;
-	justify-content: center;
-	justify-items: center; */
 	display: flex;
 	flex-wrap: wrap;
 }
