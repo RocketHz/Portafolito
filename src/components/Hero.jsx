@@ -30,7 +30,7 @@ const Hero = () => {
                                     </svg>
                                 </button>
                             </a>
-                            <a href="/FullStackSotfwareDeveloper.pdf" target="_blank" rel="noopener noreferrer">
+                            <a href="/CV_RonniHernandez_FullStackSoftwareDeveloper.pdf" target="_blank" rel="noopener noreferrer">
                                 <button className="btn">
                                     CV
                                 </button>
