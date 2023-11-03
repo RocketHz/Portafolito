@@ -5,7 +5,7 @@ import { useForm } from 'react-hook-form';
 
 const Contact = () => {
 
-  const { register, formState: { errors } } = useForm();
+  const { register, handleSubmit: handleFormSubmit, formState: { errors } } = useForm();
   
   const [formData, setFormData] = useState({
     firstName: "",
@@ -23,8 +23,7 @@ const Contact = () => {
     setFormData((prevFormData) => ({ ...prevFormData, [name]: value }));
   };
 
-  const handleSubmit = (e) => {
-    e.preventDefault();
+  const onSubmit = (e) => {
     emailjs.send(
       'service_sa9zyp1',
       'template_8tgffqj',
@@ -53,7 +52,7 @@ const Contact = () => {
         </div>
         <form
           className="mx-auto grid max-w-screen-md gap-4 sm:grid-cols-2"
-          onSubmit={handleSubmit}
+          onSubmit={handleFormSubmit(onSubmit)}
         >
           <div>
             <label htmlFor="firstName" className="mb-2 inline-block text-sm text-gulf-blue-100 sm:text-base">Nombre</label>
