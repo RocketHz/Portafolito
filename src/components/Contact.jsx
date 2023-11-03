@@ -7,27 +7,13 @@ const Contact = () => {
 
   const { register, handleSubmit: handleFormSubmit, formState: { errors } } = useForm();
   
-  const [formData, setFormData] = useState({
-    firstName: "",
-    lastName: "",
-    company: "",
-    email: "",
-    subject: "",
-    message: "",
-  });
-
   const [isEmailSend, setIsEmailSend] = useState(false)
 
-  const handleChange = (e) => {
-    const { name, value } = e.target;
-    setFormData((prevFormData) => ({ ...prevFormData, [name]: value }));
-  };
-
-  const onSubmit = (e) => {
+  const onSubmit = (data) => {
     emailjs.send(
       'service_sa9zyp1',
       'template_8tgffqj',
-      formData,
+      data,
       '0sWoK-gadiElg8pZg'
     )
     .then((result) => {
@@ -56,32 +42,32 @@ const Contact = () => {
         >
           <div>
             <label htmlFor="firstName" className="mb-2 inline-block text-sm text-gulf-blue-100 sm:text-base">Nombre</label>
-            <input name="firstName" type="text" className="w-full rounded border bg-gulf-blue-950 px-3 py-2 text-gulf-blue-400 outline-none ring-gulf-blue-300 transition duration-100 focus:ring" onChange={handleChange} {...register('firstName', { required: true })} />
+            <input name="firstName" type="text" className="w-full rounded border bg-gulf-blue-950 px-3 py-2 text-gulf-blue-400 outline-none ring-gulf-blue-300 transition duration-100 focus:ring" {...register('firstName', { required: true })} />
             {errors.firstName && <span className="text-sm text-red-700">*Requerido</span>}
           </div>
           <div>
             <label htmlFor="lastName" className="mb-2 inline-block text-sm text-gulf-blue-100 sm:text-base">Apellido</label>
-            <input name="lastName" type="text" className="w-full rounded border bg-gulf-blue-950 px-3 py-2 text-gulf-blue-400 outline-none ring-gulf-blue-300 transition duration-100 focus:ring" onChange={handleChange} {...register('lastName', { required: true })} />
+            <input name="lastName" type="text" className="w-full rounded border bg-gulf-blue-950 px-3 py-2 text-gulf-blue-400 outline-none ring-gulf-blue-300 transition duration-100 focus:ring" {...register('lastName', { required: true })} />
             {errors.lastName && <span className="text-sm text-red-700">*Requerido</span>}
           </div>
           <div>
             <label htmlFor="company" className="mb-2 inline-block text-sm text-gulf-blue-100 sm:text-base">Empresa</label>
-            <input name="company" type="text" className="w-full rounded border bg-gulf-blue-950 px-3 py-2 text-gulf-blue-400 outline-none ring-gulf-blue-300 transition duration-100 focus:ring" onChange={handleChange} {...register('company', { required: true })} />
+            <input name="company" type="text" className="w-full rounded border bg-gulf-blue-950 px-3 py-2 text-gulf-blue-400 outline-none ring-gulf-blue-300 transition duration-100 focus:ring" {...register('company', { required: true })} />
             {errors.company && <span className="text-sm text-red-700">*Requerido</span>}
           </div>
           <div>
             <label htmlFor="email" className="mb-2 inline-block text-sm text-gulf-blue-100 sm:text-base">Correo Electronico</label>
-            <input name="email" type="email" className="w-full rounded border bg-gulf-blue-950 px-3 py-2 text-gulf-blue-400 outline-none ring-gulf-blue-300 transition duration-100 focus:ring" onChange={handleChange} {...register('email', { required: true })} />
+            <input name="email" type="email" className="w-full rounded border bg-gulf-blue-950 px-3 py-2 text-gulf-blue-400 outline-none ring-gulf-blue-300 transition duration-100 focus:ring" {...register('email', { required: true })} />
             {errors.email && <span className="text-sm text-red-700">*Requerido</span>}
           </div>
           <div>
             <label htmlFor="subject" className="mb-2 inline-block text-sm text-gulf-blue-100 sm:text-base">Asunto</label>
-            <input name="subject" type="text" className="w-full rounded border bg-gulf-blue-950 px-3 py-2 text-gulf-blue-400 outline-none ring-gulf-blue-300 transition duration-100 focus:ring" onChange={handleChange} {...register('subject', { required: true })} />
+            <input name="subject" type="text" className="w-full rounded border bg-gulf-blue-950 px-3 py-2 text-gulf-blue-400 outline-none ring-gulf-blue-300 transition duration-100 focus:ring" {...register('subject', { required: true })} />
             {errors.subject && <span className="text-sm text-red-700">*Requerido</span>}
           </div>
           <div>
             <label htmlFor="message" className="mb-2 inline-block text-sm text-gulf-blue-100 sm:text-base">Mensaje</label>
-            <input name="message" type="text" className="w-full rounded border bg-gulf-blue-950 px-3 py-2 text-gulf-blue-400 outline-none ring-gulf-blue-300 transition duration-100 focus:ring" onChange={handleChange} {...register('message', { required: true })} />
+            <input name="message" type="text" className="w-full rounded border bg-gulf-blue-950 px-3 py-2 text-gulf-blue-400 outline-none ring-gulf-blue-300 transition duration-100 focus:ring" {...register('message', { required: true })} />
             {errors.message && <span className="text-sm text-red-700">*Requerido</span>}
           </div>
           <div className="flex items-center justify-between sm:col-span-2">
