@@ -1,7 +1,6 @@
 import React, { useState } from "react";
-import { Resend } from 'resend';
+import emailjs from 'emailjs-com';
 
-const resend = new Resend('re_GEq4biGo_AXGsSdEa8fh7R4FnaaMQV7MB');
 
 const Contact = () => {
   const [formData, setFormData] = useState({
@@ -18,19 +17,19 @@ const Contact = () => {
     setFormData((prevFormData) => ({ ...prevFormData, [name]: value }));
   };
 
-  const handleSubmit = async (e) => {
+  const handleSubmit = (e) => {
     e.preventDefault();
-    try {
-      await resend.emails.send({
-        from: 'onboarding@resend.dev',
-        to: 'ronnihn28@gmail.com',
-        subject: 'Hello World',
-        text: formData.message,
-      });
-      console.log('Email sent successfully');
-    } catch (error) {
-      console.log('Error sending email');
-    }
+    emailjs.send(
+      'service_sa9zyp1',
+      'template_8tgffqj',
+      formData,
+      '0sWoK-gadiElg8pZg'
+    )
+    .then((result) => {
+        console.log(result.text);
+    }, (error) => {
+        console.log(error.text);
+    });
   };
   return (
     <div id="contact" className="bg-gulf-blue-700 pt-8 py-6 sm:py-8 lg:py-12 rounded">
