@@ -69,7 +69,7 @@ const Features = () => {
                 {project.title}
               </h4>
               <p className="text-sm sm:text-base text-center p-4 col-span-3 row-start-3 w-6/12">
-                {language === "es" ? project.descriptionT : project.description}
+                {language === "es" ? project.description : project.descriptionT}
               </p>
               <div className="col-start-2 row-start-4 grid gap-4">
                 <button
