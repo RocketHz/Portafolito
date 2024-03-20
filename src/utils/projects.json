@@ -2,7 +2,8 @@
     {
         "id": "1",
         "title": "Pokedex App",
-        "description": "Aplicación de la Pokedex, un proyecto mas avanzado en react, donde implemento todos los conocimientos de ReactJS a un nivel mas profesional.",
+        "description": "Aplicación de la Pokedex, un proyecto avanzado en React, donde implemento todos los conocimientos de ReactJS a un nivel más profesional.",
+        "descriptionT": "Pokedex App, an advanced project in React, where I implemented all ReactJS knowledge at a more professional level.",
         "url": "https://pokedex-app-rockethz.vercel.app/",
         "urlGithub": "https://github.com/RocketHz/Pokedex-App.git",
         "image": "/pokedex.png",
@@ -16,7 +17,8 @@
     {
         "id": "2",
         "title": "E-commerce Academlo",
-        "description": "Aplicación de comercio electrónico es una plataforma segura y fácil de usar que permite a los clientes buscar y comprar una amplia gama de productos en línea. ",
+        "description": "Plataforma segura y fácil de usar, permite a los clientes buscar y comprar productos en línea, desarrollada con JavaScript, HTML y CSS.",
+        "descriptionT": "Secure and easy-to-use platform that allows customers to search and buy products online, developed with JavaScript, HTML, and CSS.",
         "url": "https://e-commerce-academlo-woad.vercel.app/",
         "urlGithub": "https://github.com/RocketHz/academloShoppingCar.git",
         "image": "/e-commerce-academlo.png",
@@ -29,7 +31,8 @@
     {
         "id": "3",
         "title": "Rick and Morty App",
-        "description": "Plataforma interactiva donde los fanáticos de la serie pueden explorar y obtener información detallada sobre los personajes.",
+        "description": "Plataforma interactiva para fanáticos de la serie, explorar y obtener información detallada sobre personajes, desarrollada con React, JavaScript, HTML y CSS.",
+        "descriptionT": "Interactive platform for fans of the series, to explore and get detailed information about characters, developed with React, JavaScript, HTML, and CSS.",
         "url": "https://rick-and-morty-app-rockethz.vercel.app/",
         "urlGithub": "https://github.com/RocketHz/RickAndMorty-App.git",
         "image":"/rickandmorty.png",
@@ -43,7 +46,8 @@
     {
         "id": "4",
         "title": "User CRUD App",
-        "description": "CRUD para la gestion de usuarios hecho con React, react-hook-form y axios.",
+        "description": "Aplicación CRUD para gestión de usuarios, utilizando React, react-hook-form y axios, para operaciones de creación, lectura, actualización y eliminación.",
+        "descriptionT": "CRUD application for user management, using React, react-hook-form, and axios, for creation, reading, updating, and deletion operations.",
         "url": "https://user-crud-rockethz.vercel.app/",
         "urlGithub": "https://github.com/RocketHz/User-CRUD.git",
         "image":"/user-crud.png",
@@ -57,7 +61,8 @@
     {
         "id": "5",
         "title": "Galleta de la fortuna",
-        "description": "Aplicación desarrollada en React que utiliza un archivo JSON para generar mensajes aleatorios de la galleta de la fortuna.",
+        "description": "Aplicación en React que genera mensajes aleatorios de la galleta de la fortuna, utilizando un archivo JSON para los mensajes.",
+        "descriptionT": "React application that generates random fortune cookie messages, using a JSON file for the messages.",
         "url": "https://galleta-de-la-fortuna.vercel.app",
         "urlGithub": "https://github.com/RocketHz/Galleta-De-La-Fortuna.git",
         "image": "/galletaDeLaFortuna.png",
@@ -71,7 +76,8 @@
     {
         "id": "6",
         "title": "Aplicacion del clima",
-        "description": "Aplicación intuitiva y fácil de usar, desarrollada en React, que te proporciona información sobre el clima actual en tu ubicación. usando la API de OpenWeatherMap para obtener los datos del clima en tiempo real",
+        "description": "Aplicación intuitiva en React que proporciona información del clima actual, utilizando la API de OpenWeatherMap para datos en tiempo real.",
+        "descriptionT": "Intuitive React application that provides current weather information, using the OpenWeatherMap API for real-time data.",
         "url": "https://weather-app-rockethz.vercel.app/",
         "urlGithub": "https://github.com/RocketHz/weatherApp.git",
         "image":"/weatherApp.png",

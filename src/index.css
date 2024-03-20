@@ -58,10 +58,9 @@ button {
 /* Additional resets specific to your project */
 
 img {
-	height: auto;
-	max-width: 315px;
-	max-height: 200px;
+	
 	border-radius: 25px;
+	object-fit: cover;
 }
 
 h1,
