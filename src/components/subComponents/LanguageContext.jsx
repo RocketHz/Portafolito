@@ -1,5 +1,6 @@
 import React, { createContext, useState, useEffect, useContext } from 'react';
 
+
 const LanguageContext = createContext();
 
 const LanguageProvider = ({ children }) => {
@@ -11,7 +12,7 @@ const LanguageProvider = ({ children }) => {
   }, [language]);
 
   const fetchLanguageData = () => {
-    const dataUrl = `../utils/${language}.json`;
+    const dataUrl = `/${language}.json`;
     fetch(dataUrl)
       .then((response) => response.json())
       .then((data) => setLanguageData(data))
