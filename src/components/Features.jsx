@@ -63,25 +63,25 @@ const Features = () => {
               <img
                 src={project.image}
                 alt="Feature 01"
-                className="w-3/5 col-start-2"
+                className="col-start-2 extend"
               />
-              <h4 className="text-xl sm:text-2xl p-6 col-span-3 row-start-2 text-light-accent-100">
+              <h4 className="text-xl sm:text-2xl col-span-3 row-start-2 text-light-accent-100">
                 {project.title}
               </h4>
-              <p className="text-sm sm:text-base text-center p-4 col-span-3 row-start-3 w-6/12">
+              <p className="text-sm sm:text-base text-center col-span-3 row-start-3 w-6/12">
                 {language === "es" ? project.description : project.descriptionT}
               </p>
-              <div className="col-start-2 row-start-4 grid gap-4">
+              <div className="col-start-2 row-start-4 grid gap-1">
                 <button
                   onClick={() => redirectToNewTab(project.urlGithub)}
-                  className="relative p-2 border border-gulf-blue-300 rounded text-sm sm:text-base uppercase bg-gulf-blue-900 hover:bg-gulf-blue-600 text-gulf-blue-100 hover:text-black font-bold py-2 px-4 shadow-md hover:shadow-gulf-blue-300 transition-all duration-200 ease-out hover:animate-sh02 active:shadow-none col-start-2 row-start-4"
+                  className="relative p-2 border border-gulf-blue-300 rounded text-sm sm:text-base uppercase bg-gulf-blue-900 hover:bg-gulf-blue-600 text-gulf-blue-100 hover:text-black font-bold py-2 shadow-md hover:shadow-gulf-blue-300 transition-all duration-200 ease-out hover:animate-sh02 active:shadow-none col-start-2 row-start-4"
                 >
                   <span className="absolute inset-0 rounded bg-gulf-blue-600 opacity-0 transform hover:opacity-100"></span>
                   <GithubSvg />
                 </button>
                 <button
                   onClick={() => redirectToNewTab(project.url)}
-                  className="relative p-2 border border-gulf-blue-300 rounded text-sm sm:text-base uppercase bg-gulf-blue-900 hover:bg-gulf-blue-600 text-gulf-blue-100 hover:text-black font-bold py-2 px-4 shadow-md hover:shadow-gulf-blue-300 transition-all duration-200 ease-out hover:animate-sh02 active:shadow-none col-start-4 row-start-4"
+                  className="relative p-2 border border-gulf-blue-300 rounded text-sm sm:text-base uppercase bg-gulf-blue-900 hover:bg-gulf-blue-600 text-gulf-blue-100 hover:text-black font-bold py-2 shadow-md hover:shadow-gulf-blue-300 transition-all duration-200 ease-out hover:animate-sh02 active:shadow-none col-start-4 row-start-4"
                 >
                   <span className="absolute inset-0 rounded bg-gulf-blue-600 opacity-0 transform hover:opacity-100"></span>
                   <ExternalSvg />
