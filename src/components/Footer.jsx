@@ -15,7 +15,7 @@ const Footer = () => {
           <img
             src="/rocket-logo.jpg"
             alt=""
-            className="absolute inset-0 max-h-full max-w-full object-cover"
+            className="absolute inset-0 max-h-full max-w-full object-cover my-3"
           />
         </div>
 
