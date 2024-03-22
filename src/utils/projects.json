@@ -8,10 +8,10 @@
         "urlGithub": "https://github.com/RocketHz/Pokedex-App.git",
         "image": "/pokedex.png",
         "tech": {
-            "React": "reactAnimate",
-            "JavaScript": "javascriptAnimate",
-            "HTML": "htmlAnimate",
-            "CSS": "cssAnimate"
+            "React": "ReactSvg",
+            "JavaScript": "JavaScriptSvg",
+            "Html": "HtmlSvg",
+            "Css": "CssSvg"
         }
     },
     {
@@ -23,9 +23,9 @@
         "urlGithub": "https://github.com/RocketHz/academloShoppingCar.git",
         "image": "/e-commerce-academlo.png",
         "tech": {
-            "JavaScript": "javascriptAnimate",
-            "HTML": "htmlAnimate",
-            "CSS": "cssAnimate"
+            "JavaScript": "JavaScriptSvg",
+            "Html": "HtmlSvg",
+            "Css": "CssSvg"
         }        
     },
     {
@@ -37,10 +37,10 @@
         "urlGithub": "https://github.com/RocketHz/RickAndMorty-App.git",
         "image":"/rickandmorty.png",
         "tech": {
-            "React": "reactAnimate",
-            "JavaScript": "javascriptAnimate",
-            "HTML": "htmlAnimate",
-            "CSS": "cssAnimate"
+            "React": "ReactSvg",
+            "JavaScript": "JavaScriptSvg",
+            "Html": "HtmlSvg",
+            "Css": "CssSvg"
         }
     },
     {
@@ -52,10 +52,10 @@
         "urlGithub": "https://github.com/RocketHz/User-CRUD.git",
         "image":"/user-crud.png",
         "tech": {
-            "React": "reactAnimate",
-            "JavaScript": "javascriptAnimate",
-            "HTML": "htmlAnimate",
-            "CSS": "cssAnimate"
+            "React": "ReactSvg",
+            "JavaScript": "JavaScriptSvg",
+            "Html": "HtmlSvg",
+            "Css": "CssSvg"
         }
     },
     {
@@ -67,10 +67,10 @@
         "urlGithub": "https://github.com/RocketHz/Galleta-De-La-Fortuna.git",
         "image": "/galletaDeLaFortuna.png",
         "tech": {
-            "React": "reactAnimate",
-            "JavaScript": "javascriptAnimate",
-            "HTML": "htmlAnimate",
-            "CSS": "cssAnimate"
+            "React": "ReactSvg",
+            "JavaScript": "JavaScriptSvg",
+            "Html": "HtmlSvg",
+            "Css": "CssSvg"
         }
     },
     {
@@ -82,10 +82,10 @@
         "urlGithub": "https://github.com/RocketHz/weatherApp.git",
         "image":"/weatherApp.png",
         "tech": {
-            "React": "reactAnimate",
-            "JavaScript": "javascriptAnimate",
-            "HTML": "htmlAnimate",
-            "CSS": "cssAnimate"
+            "React": "ReactSvg",
+            "JavaScript": "JavaScriptSvg",
+            "Html": "HtmlSvg",
+            "Css": "CssSvg"
         }
     }
 ]

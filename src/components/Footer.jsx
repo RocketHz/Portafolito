@@ -10,7 +10,7 @@ const Footer = () => {
 
   return (
     <div>
-      <footer className="bg-gradient-to-r from-light-bg-100 via-oscure-bg-300/50 to-light-bg-100 dark:bg-gradient-to-r dark:from-oscure-bg-100 dark:via-light-text-200/70 dark:to-oscure-bg-100 text-oscure-bg-100 dark:text-light-bg-100 lg:grid lg:grid-cols-5">
+      <footer className=" text-oscure-bg-100 dark:text-light-bg-100 lg:grid lg:grid-cols-5">
         <div className="relative block h-32 lg:col-span-2 lg:h-full">
           <img
             src="/rocket-logo.jpg"
@@ -25,16 +25,10 @@ const Footer = () => {
               <p>
                 <span className="text-xs uppercase tracking-wide ">
                   {" "}
-                  {languageData.contactPhone}{" "}
+                  {languageData.hourContact}{" "}
                 </span>
-                <a
-                  href="#"
-                  className="block text-2xl font-medium  hover:opacity-75 sm:text-3xl"
-                >
-                  +58-412-874-7063
-                </a>
               </p>
-              <ul className="mt-8 space-y-1 text-sm ">
+              <ul className="space-y-1 text-sm ">
                 <li>{languageData.workingHours}</li>
                 <li>{languageData.weekends}</li>
               </ul>
@@ -79,50 +73,50 @@ const Footer = () => {
                 <p className="font-medium ">{languageData.services}</p>
                 <ul className="mt-6 space-y-4 text-sm">
                   <li>
-                    <a
+                    <p
                       href="#"
-                      className=" transition hover:opacity-75"
+                      
                     >
                       {" "}
                       {languageData.oneToOneCalls}{" "}
-                    </a>
+                    </p>
                   </li>
                   <li>
-                    <a
+                    <p
                       href="#"
-                      className=" transition hover:opacity-75"
+                      
                     >
                       {" "}
                       {languageData.webPages}{" "}
-                    </a>
+                    </p>
                   </li>
                   <li>
-                    <a
+                    <p
                       href="#"
-                      className=" transition hover:opacity-75"
+                      
                     >
                       {" "}
                       {languageData.webBusinessApplications}{" "}
-                    </a>
+                    </p>
                   </li>
                   <li>
-                    <a
+                    <p
                       href="#"
-                      className=" transition hover:opacity-75"
+                      
                     >
                       {" "}
                       {languageData.marketingPlatforms}
                       {" "}
-                    </a>
+                    </p>
                   </li>
                   <li>
-                    <a
+                    <p
                       href="#"
-                      className=" transition hover:opacity-75"
+                      
                     >
                       {" "}
                       {languageData.seoOptimization}{" "}
-                    </a>
+                    </p>
                   </li>
                 </ul>
               </div>
@@ -151,10 +145,10 @@ const Footer = () => {
               </div>
             </div>
           </div>
-          <div className="mt-12 border-t border-gray-100 pt-12">
+          <div className=" border-gray-100 pt-12">
             <div className="sm:flex sm:items-center sm:justify-between">
-              <p className="mt-8 text-xs text-gray-500 sm:mt-0">
-                &copy; {languageData.copyright}
+              <p className="mt-8 text-xs text-light-text-100 dark:text-oscure-text-100 sm:mt-0">
+                {languageData.copyright}
               </p>
             </div>
           </div>

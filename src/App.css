@@ -6,4 +6,10 @@
   .extend{
     max-width: 300px;
   }
+  .ocult{
+    display: none;
+  }
+  .group-anchor{
+    max-width: 125px;
+  }
  }

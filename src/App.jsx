@@ -13,7 +13,7 @@ function App() {
 
   return (
     
-    <main>
+    <main className="bg-gradient-to-b from-light-bg-100 to-light-bg-300 dark:bg-gradient-to-b dark:from-oscure-bg-100  dark:to-oscure-bg-300">
       <Header />
       <Hero />
       <Features />

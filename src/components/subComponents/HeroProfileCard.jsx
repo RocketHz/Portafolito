@@ -17,7 +17,7 @@ const HeroProfileCard = () => {
     }
 
   return (
-    <div className="max-w-2xl mx-4 sm:max-w-sm md:max-w-sm lg:max-w-sm xl:max-w-sm sm:mx-auto md:mx-auto lg:mx-auto xl:mx-auto mt-16 bg-oscure-bg-300/25 dark:bg-oscure-bg-100/95 shadow-xl rounded-lg text-gray-900">
+    <div className="max-w-2xl mx-4 sm:max-w-xs md:max-w-xs lg:max-w-xs xl:max-w-xs sm:mx-auto md:mx-auto lg:mx-auto xl:mx-auto my-16 bg-oscure-bg-300/25 dark:bg-oscure-bg-100/95 shadow-xl rounded-lg text-gray-900">
   <div className="rounded-t-lg h-32 overflow-hidden">
     <img
       className="object-cover object-top w-full rounded-none"
@@ -34,9 +34,9 @@ const HeroProfileCard = () => {
   </div>
   <div className="text-center mt-2">
     <h2 className="text-3xl font-semibold text-light-accent-200">{languageData.profilename}</h2>
-    <p className="text-light-bg-100">{languageData.profiletitle}</p>
+    <p className="text-light-text-100 dark:text-oscure-text-100">{languageData.profiletitle}</p>
   </div>
-  <ul className="py-4 mt-2 text-light-bg-100 flex items-center justify-around">
+  <ul className="py-4 mt-2 text-light-text-100 dark:text-oscure-text-100 flex items-center justify-around">
     <li className="flex flex-col items-center justify-around">
       <FlagVenezuelaSvg/>
       <span><b>{languageData.profilenationality}</b></span>
