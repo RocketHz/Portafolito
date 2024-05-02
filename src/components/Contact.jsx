@@ -14,7 +14,7 @@ const Contact = () => {
 
   const onSubmit = (data) => {
     emailjs.send(
-      'service_sa9zyp1',
+      'service_qra0qfn',
       'template_8tgffqj',
       data,
       '0sWoK-gadiElg8pZg'
